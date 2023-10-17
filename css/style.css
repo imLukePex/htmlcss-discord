@@ -88,7 +88,7 @@ a {
 header  div.center { 
     max-width: 50%;
     height: 480px;
-    margin: 40px auto;
+    margin: 35px auto;
 }
 
 h1, p {
@@ -102,7 +102,7 @@ h1 {
 }
 
 p {
-    font-size: 2em;
+    font-size: 29px;
     padding-top: 50px;
 }
 
