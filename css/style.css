@@ -1,0 +1,240 @@
+/* Stili generali di pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Whitney', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* Stili dell'Header */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+#navbar {
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+nav.center {
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.left-section {
+    width: 20%;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.middle-section {
+    width: 60%;
+    text-align: center;
+}
+
+.middle-section a {
+    margin: 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+.middle-section a:hover {
+    text-decoration: underline;
+}
+
+.right-section {
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.right-section a {
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.right-section a:hover {
+    color: #1e90ff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5)
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#container-header {
+    height: 570px;
+}
+
+#text {
+    padding: 50px 0;
+}
+
+header  div.center { 
+    max-width: 50%;
+    height: 480px;
+    margin: 40px auto;
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+p {
+    font-size: 2em;
+    padding-top: 50px;
+}
+
+.header-buttons {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.download-button {
+    background-color: white;
+    padding: 18px 35px;
+    color: black;
+    font-size: 23px;
+    border-radius: 40px;
+    border: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    color: #1e90ff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5)
+}
+
+.link-browser {
+    background-color: black;
+    color: white;
+    padding: 18px 35px;
+    font-size: 23px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.link-browser:hover {
+    background-color: #23272a;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5)
+}
+
+/* Stili del Main */
+
+/* Stili Generali Sezioni */
+.container-section {
+    padding: 50px 0;
+}
+
+main div.center {
+    display: flex;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.section-img {
+    width: 60%;
+    height: 500px;
+    border: 2px dashed black; 
+    background-color: #1e90ff;
+}
+
+.section-text {
+    width: 40%;
+    height: 500px;
+    border: 2px dashed black; 
+    background-color: #ffc0cb;
+}
+
+/* Stili Seconda e Quarta Sezione */
+.grey  {
+    background-color: #d3d3d3;
+}
+
+/* Stili Quarta Sezione */
+.great-img  {
+    width: 100%;
+    height: 1000px;
+    background-color: #228b22;
+    border: 3px dashed black; 
+}
+
+/* Stili del Footer */
+
+/* Stili Prima Parte Footer */
+.container-first-part-footer {
+    background-color: #23272a;
+    padding: 10px 0 40px;
+    border-bottom: 2px solid white;
+}
+
+footer div.center-footer {
+    display: flex;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.socials {
+    width: 30%;
+    background-color: #f08080;
+    height: 600px;
+    border: 2px dashed black;
+}
+
+.col {
+    width: calc(70% / 4);
+    background-color:#20b2aa;
+    height: 600px;
+    border: 2px dashed white;
+}
+
+/* Stili Seconda Parte Footer */
+.container-second-part-footer {
+    background-color: #23272a;
+    padding-top: 30px;
+    border-bottom: 2px solid white;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #7fffd4;
+    height: 90px;
+    font-size: 23px;
+}
+
+.left-section-footer, .right-section-footer {
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+    padding: 4px 7px;
+}
+
+
+
+
+
