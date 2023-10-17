@@ -91,7 +91,7 @@ header  div.center {
     margin: 35px auto;
 }
 
-h1, p {
+.center h1, p {
     color: white;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
@@ -101,8 +101,8 @@ h1 {
     font-size: 5em;
 }
 
-p {
-    font-size: 29px;
+.center p {
+    font-size: 25px;
     padding-top: 50px;
 }
 
@@ -113,9 +113,9 @@ p {
 
 .download-button {
     background-color: white;
-    padding: 18px 35px;
+    padding: 15px 35px;
     color: black;
-    font-size: 23px;
+    font-size: 20px;
     border-radius: 40px;
     border: none;
     margin-right: 30px;
@@ -130,8 +130,8 @@ p {
 .link-browser {
     background-color: black;
     color: white;
-    padding: 18px 35px;
-    font-size: 23px;
+    padding: 15px 35px;
+    font-size: 20px;
     border-radius: 40px;
     border: none;
     cursor: pointer;
@@ -146,7 +146,7 @@ p {
 
 /* Stili Generali Sezioni */
 .container-section {
-    padding: 50px 0;
+    padding: 120px 0;
 }
 
 main div.center {
@@ -157,29 +157,78 @@ main div.center {
 
 .section-img {
     width: 60%;
-    height: 500px;
-    border: 2px dashed black; 
-    background-color: #1e90ff;
 }
 
 .section-text {
     width: 40%;
-    height: 500px;
-    border: 2px dashed black; 
-    background-color: #ffc0cb;
+}
+
+.section-text > h2, .paragraph  {
+    color: black;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 48px;
+    padding-top: 30px;
+}
+
+.paragraph {
+    padding-top: 40px;
+    font-size: 22px;
 }
 
 /* Stili Seconda e Quarta Sezione */
 .grey  {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 /* Stili Quarta Sezione */
+.fourth-container {
+    width: 100%; 
+    text-align: center;
+}
+
+.fourth-text {
+    padding-left: 0;
+}
+
 .great-img  {
     width: 100%;
-    height: 1000px;
-    background-color: #228b22;
-    border: 3px dashed black; 
+}
+
+.big-img {
+    width: 1200px;
+    margin-top: 20px;
+}
+
+.small-text {
+    margin-top: -15px;
+}
+
+.small-img {
+    width: 620px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-top: -20px;
+}
+
+.bottom-page {
+    color: white;
+    background-color: #8ea1e1;
+    font-size: 14px;
+    padding: 10px 25px;
+    margin-top: 25px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom-page:hover {
+    background-color: #1e90ff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5)
 }
 
 /* Stili del Footer */
@@ -202,6 +251,11 @@ footer div.center-footer {
     background-color: #f08080;
     height: 600px;
     border: 2px dashed black;
+}
+
+div.socials {
+    font-size: 35px;
+    color: #7289da;
 }
 
 .col {
